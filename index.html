@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> document</title>
+
+</head>
+<!-- padre principal -->
+<body>
+	<!-- h1 es unico por el nivel de importancia -->
+	<h1> tutulo principal</h1>
+	<!-- agrupacion de titulares -->
+	<hgroup>
+		<h2>oka</h2>
+		<h2>oka</h2>
+	</hgroup>
+	<h2>titulo secundario 1</h2>
+	<h2>titulo secundario 2</h2>
+	<h2>titulo secundario 3</h2>
+	<h3>titulo h3</h3>
+	<h4>tutilo h4</h4>
+	<h5>titulo h5</h5>
+	<!-- padre -->
+	<header id="header" class="">
+		<!-- 
+			logo
+			nombre -> h1
+			nav
+			baner
+
+		 -->
+
+		<!-- hijo -->
+		<!-- navegacion -->
+		<nav class="">
+
+			<!-- nieto -->
+			<!-- lista desordenada  <ul>
+			<ol lista ordenada enumera la lista>
+			-->
+		    <ul>
+
+		    	<!-- bisnieto -->
+		    	<!-- lista  -->
+		        <li>opcion1</li>
+		        <li>opcion2</li>
+		        <li>opcion3</li>
+		     	<li><a href="https://mobbin.design/">opcion4</a></li>
+		     	<!-- links -->
+		     		<a href="https://www1.cuevana3.video" title="cuevana" target="_blank">cuevana</a>
+		     	<!-- enlace a zona de pagina -->
+		     		<a href="#ejemplo">aqui para ir abajo</a>
+		     	<!-- para enlazar carpetas. los (.. ) son para ir en reversa en carpetas desde la carpeta raiz asi como en el bash de CMD -->
+		     		<a href="../Practicas-JS/7.1.DOM.html" target="_blank">para una carpeta interna de otro directorio</a>
+
+
+		    </ul>
+		</nav>
+	</header>
+	<figure>
+		<!-- alt es la descripcion en texto de la imagen -->
+		<img src="47d28e79b66fd3e53acd999d135cf33e.jpg" alt="regalos de mis viviencias">
+			<!-- leyenda de imagen -->
+			<figcaption>SATURN</figcaption>
+	</figure>
+	<div>
+		<audio src="martin-garrx-now-that-ive-found-you-instrumental-mix.mp3" type="audio/mp3" controls="controls"></audio>
+		<video src="IMG_6755.MOV" type="video/mov" controls="controls" loop="true" autoplay="false" preload="true"  >
+		</video>
+		<code>hola mundo</code>
+ 	<form id='form' name='form' method='post' action='suscribe.php'>
+       	<span>Si quieres enterarte de los nuevos cursos, suscríbete.</span>
+
+        <input id='email' name='email' type='text' placeholder='Introduce tu email' onfocus='if(this.placeholder =='')this.placeholder ="Introduce tu email"/>
+
+        <input type='submit' name='Submit' id='button' value='Suscríbete' />
+    </form>
+	</div>
+
+	<!-- hermano -->
+	<!-- seccion de pagina  areas generales-->
+	<section>
+		<!-- areas especificas no estan relacionados entre si -->
+		<article>
+			<span>una frase que sera lineal y a la que se le pueden editar sus propiedades</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt <strong>esta seccion es para colocarle mas fuerza (mas importante) -- semantica </strong> aspernatur ut nihil quis assumenda dolorem expedita <em>un pesos semantico mas grande para que los motores de busqueda sepan que es importante -- datos no tan comunes</em> molestiae ipsum alias a asperiores dicta, eum, nostrum enim illo.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt similique, nemo. Necessitatibus quasi aspernatur ut nihil quis assumenda dolorem expedita molestiae ipsum alias a asperiores dicta, eum, nostrum enim illo.</p>
+
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt similique, nemo. Necessitatibus quasi aspernatur ut nihil quis assumenda dolorem expedita molestiae ipsum alias a asperiores dicta, eum, nostrum enim illo.</p>
+
+		</article>
+
+		<article>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt similique, nemo. Necessitatibus quasi aspernatur ut nihil quis assumenda dolorem expedita molestiae ipsum alias a asperiores dicta, eum, nostrum enim illo.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt similique, nemo. Necessitatibus quasi aspernatur ut nihil quis assumenda dolorem expedita molestiae ipsum alias a asperiores dicta, eum, nostrum enim illo.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt similique, nemo. Necessitatibus quasi aspernatur ut nihil quis assumenda dolorem expedita molestiae ipsum alias a asperiores dicta, eum, nostrum enim illo.</p>
+
+		</article>
+
+		<article>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt similique, nemo. Necessitatibus quasi aspernatur ut nihil quis assumenda dolorem expedita molestiae ipsum alias a asperiores dicta, eum, nostrum enim illo.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt similique, nemo. Necessitatibus quasi aspernatur ut nihil quis assumenda dolorem expedita molestiae ipsum alias a asperiores dicta, eum, nostrum enim illo.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt similique, nemo. Necessitatibus quasi aspernatur ut nihil quis assumenda dolorem expedita molestiae ipsum alias a asperiores dicta, eum, nostrum enim illo.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt similique, nemo. Necessitatibus quasi aspernatur ut nihil quis assumenda dolorem expedita molestiae ipsum alias a asperiores dicta, eum, nostrum enim illo.</p>
+		</article>
+	</section>
+
+
+	<section id="ejemplo">
+		<p>objetivo</p>
+	<!-- son para separar la pagina de forma especifica -->
+	<div>
+		hola soy un div
+	</div>
+	</section>
+	<!-- esta relacionado de forna secundaria con el contenido de la pagina pero en realidad son externos, extras, \napa -->
+	<aside>
+		<p> asaide Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla facilis, ea labore saepe aut. Alias a officia eius facilis atque odit accusamus ratione molestiae nobis earum, aliquam commodi natus tempora.</p>
+	</aside>
+
+	<!-- hermano -->
+	<!-- pie de pagina -->
+	<footer>
+		
+	</footer>
+
+	
+</body>
+</html>					
