@@ -1,3 +1,7 @@
+body {
+    background: blue;
+}
+
 
 div{
     width: 100px;
@@ -27,5 +31,5 @@ div{
     background: rgb(50%,25%,75%);
 }
 .hsl{
-    background: hsl(120,50%,20%);
+    background: hsl(7, 100%, 61%);
 }
